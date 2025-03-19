@@ -81,6 +81,7 @@ class CafeKioskTest {
         assertThat(cafeKiosk.getBeverageList()).isEmpty();
     }
 
+    // given, when, then --> BDD 스타일
     @Test
     void calculateTotalPrice() {
         // given
